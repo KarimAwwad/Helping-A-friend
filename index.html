@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>بوابة الخدمات الإلكترونية</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        /* Use Inter font as the default */
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #ffffff;
+        }
+        /* Custom styles for the floating action button */
+        .fab {
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        }
+        /* Custom header color to match the image */
+        .header-dark {
+            background-color: #2d3748; /* This is a dark slate color similar to Tailwind's gray-800 */
+        }
+    </style>
+</head>
+<body class="min-h-screen">
+
+    <header class="header-dark shadow-md">
+<div class="flex items-center justify-between h-12">
+
+                <div>
+                     <img src="Capture.PNG" alt="Logo" class="h-12" onerror="this.onerror=null;this.src='https://placehold.co/150x50/2d3748/ffffff?text=Logo';">
+                </div>
+
+                <div class="hidden md:block">
+                    <p class="text-gray-400">الأربعاء، 30 يوليو 2025</p>
+                </div>
+
+                <div class="flex items-center space-x-6">
+                    <button class="font-semibold text-gray-300 hover:text-white">En</button>
+                    <div class="h-8 border-l border-gray-600"></div>
+                    <button class="text-gray-300 hover:text-white">
+                        <i class="fas fa-power-off text-2xl"></i>
+                    </button>
+                    <button class="text-gray-300 hover:text-white">
+                        <i class="fas fa-user-circle text-3xl"></i>
+                    </button>
+                </div>
+
+            </div>
+</header>
+
+    <main class="py-12 flex flex-col items-center justify-center min-h-[calc(100vh-80px)]">
+        <div class="container mx-auto px-4 text-center">
+            <p class="text-[#ff7878] text-3xl font-bold mb-8">تم سداد المصاريف الخاصة بمواد السمر كورس قم بالضغط علي الزر الذي بالاسفل للرجوع للصفحة الرئيسية!</p>
+
+            <a href="https://myu.bu.edu.eg/" class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg transition-colors duration-200 shadow-lg">
+                العودة إلى صفحة تسجيل الدخول!
+            </a>
+            </div>
+    </main>
+
+    <button class="fab fixed bottom-5 left-5 w-16 h-16 bg-blue-600 text-white rounded-full flex items-center justify-center hover:bg-blue-700 transition-colors">
+        <i class="fas fa-universal-access text-3xl"></i>
+    </button>
+
+</body>
+</html>
